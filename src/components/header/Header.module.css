@@ -35,6 +35,7 @@
   margin: 0 0.9rem;
   color: var(--main-color);
   font-size: 1.2rem;
+  cursor: pointer;
 }
 
 .searchInput {
@@ -50,4 +51,26 @@
 
 .searchInput.active {
   transform: translateX(0%);
+}
+
+.favMovies {
+  display: flex;
+  margin-right: 4rem;
+}
+
+.favMovies__title {
+  margin-right: 1rem;
+  color: #fff;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.favMovies__title:hover {
+  color: var(--main-color);
+}
+
+.favMovies__icon {
+  color: var(--main-color);
+  font-size: 2rem;
 }

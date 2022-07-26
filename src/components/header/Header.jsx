@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import classes from "./Header.module.css";
-import { FaSearch } from "react-icons/fa";
+import { FaSearch, FaHeart } from "react-icons/fa";
 
 const Header = () => {
   const [searchActive, setSearchActive] = useState(false);
@@ -27,6 +27,10 @@ const Header = () => {
           type="text"
           placeholder="search for movie..."
         />
+      </div>
+      <div className={classes.favMovies}>
+        <h3 className={classes.favMovies__title}>Your Movies</h3>
+        <FaHeart className={classes.favMovies__icon} />
       </div>
     </div>
   );
