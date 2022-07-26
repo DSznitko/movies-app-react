@@ -25,7 +25,7 @@ const Header = () => {
             searchActive ? classes.active : ""
           }`}
           type="text"
-          placeholder="search for movie..."
+          placeholder="search for movie.."
         />
       </div>
       <div className={classes.favMovies}>
