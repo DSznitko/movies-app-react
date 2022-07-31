@@ -13,7 +13,7 @@ useEffect(() => {
     setLoadingData(false)
   }
   const data = await response.json();
-  setFetchedData(data);
+  setFetchedData(data.results);
   setLoadingData(false)
 
 },[])
