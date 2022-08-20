@@ -73,6 +73,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 API_KEY: "8e16ce1556b3f3e7563bc930a17f3bda"
 
-SEARCH BY QUERY: "https://api.themoviedb.org/3/search/movie?api_key=8e16ce1556b3f3e7563bc930a17f3bda&language=en-US&page=1&include_adult=false&query={querry}"
-
 GET POPULAR: "https://api.themoviedb.org/3/movie/popular?api_key=8e16ce1556b3f3e7563bc930a17f3bda&language=en-US&page=1
+
+TOP RATED: https://api.themoviedb.org/3/movie/top_rated?api_key=<<api_key>>&language=en-US&page=1

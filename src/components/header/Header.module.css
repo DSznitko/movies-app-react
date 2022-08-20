@@ -45,12 +45,7 @@
   outline: none;
   background-color: transparent;
   color: white;
-  transform: translateX(120%);
   transition: 0.5s ease-in;
-}
-
-.searchInput.active {
-  transform: translateX(0%);
 }
 
 .favMovies {
